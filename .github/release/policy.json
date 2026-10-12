@@ -1,0 +1,8 @@
+{
+  "repository": "Robinson-AI-Systems/Cortiware",
+  "requiredChecks": [
+    "release-policy",
+    "Quality Checks (TypeScript, Lint, Tests, Build)",
+    "API Contract Validation"
+  ]
+}
