@@ -40,7 +40,7 @@ Acceptance: private records absent from every public output, including static bu
 
 Deliver: reviewed staging production build, configuration inventory, canonical domain migration, rollback record, website observation and source ownership documentation.
 
-Acceptance: actual new domain-serving revision identified; HTTPS works on apex and www; redirect preserves path/query without a loop; images, routes, robots and sitemap work; contact route is usable; Cortiware provider/tenant hostnames remain functional. Old project retained until stabilization. Latest deployment READY alone is insufficient; inspect domain-serving behavior.
+Acceptance: actual new domain-serving revision identified; HTTPS works on apex and www; redirect preserves path/query without a loop; images, routes, robots and sitemap work; contact route is usable; Cortiware provider/tenant bindings and intentional paused state are preserved. Old company website project retained until stabilization. Latest deployment READY alone is insufficient; inspect domain-serving behavior. Cortiware application availability is intentionally not a website-launch requirement while the owner has parked that product.
 
 ### RAS-5: first MCP domain migration
 

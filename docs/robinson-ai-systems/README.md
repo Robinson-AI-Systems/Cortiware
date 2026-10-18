@@ -43,7 +43,7 @@ The business already has a separate Vercel project. Full independence requires e
 5. Development-agent spending/production restrictions must not become permanent end-user product restrictions.
 6. Prepare monetization architecture; pricing, billing activation and commercial promises remain undecided.
 7. A marketing launch, branded-domain migration, private pilot, public listing and paid launch are distinct milestones.
-8. Preserve functioning Cortiware applications and the existing `provider.robinsonaisystems.com` hostname.
+8. Preserve Cortiware code, data, configuration and hostname ownership. Owner subsequently requested parking Cortiware: its three non-company Vercel projects were reversibly paused; do not resume them as a website-migration side effect. See [pause record](../CORTIWARE-PAUSE.md).
 
 ## Scope and completion
 

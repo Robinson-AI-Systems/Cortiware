@@ -113,7 +113,7 @@ Do not copy the development agent's zero-spend or test-only rules into customer 
 2. Build the extracted site without Cortiware dependencies or credentials. Verify logos and all pages against the existing design visually on desktop and mobile.
 3. Stage the new site's production build without moving the domain. Verify routing, canonical URLs, headers, redirects, forms or email links, sitemap, error pages and asset loading.
 4. Record domain ownership moves and rollback steps. Move website domains only after the staged release passes. Do not change nameservers or email MX/TXT records as part of an application move.
-5. Read back domain bindings and TLS; test apex-to-www behavior and all existing public paths. Check `provider.robinsonaisystems.com` still resolves to Cortiware. Keep the old website project available for rollback until stabilization is accepted.
+5. Read back domain bindings and TLS; test apex-to-www behavior and all existing public paths. Keep `provider.robinsonaisystems.com` assigned to Cortiware, respecting its intentional paused state. Do not resume paused applications for a migration smoke test. Keep the old company website project available for rollback until stabilization is accepted.
 6. Migrate MCP hostnames individually in their service repositories. Complete one service before repeating across others; website migration does not require all tools to migrate at once.
 7. Retire only the old marketing application after confirming no remaining consumer/build dependency. Update Cortiware docs to link to the independent company repository. Never remove provider/tenant apps or their database resources.
 
