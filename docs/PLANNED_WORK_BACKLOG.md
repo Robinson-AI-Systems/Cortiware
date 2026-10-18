@@ -84,8 +84,18 @@ Status Keys:
 
 ---
 
-## B. Confirmed (none yet)
-- Move items here after explicit confirmation
+## B. Confirmed
+
+### Robinson AI Systems independent startup website and MCP distribution
+
+- status: confirmed (design recorded; implementation not started)
+- owner-request: 2026-10-18
+- needs-confirmation: false for preparing the independent startup site, MCP domain structure and customer-access foundations
+- last-code-check: pass (existing marketing application and dependency/routing coupling inspected)
+- source: [Architecture, content brief and ordered roadmap](robinson-ai-systems/README.md)
+- scope: preserve the Robinson branding; replace unsupported enterprise claims; extract independent source/build/deployment; establish service-owned branded MCP addresses; prepare customer access and optional monetization
+- boundaries: no pricing or automatic billing selected; service public launch and real-world acceptance remain separate from website publication; preserve Cortiware provider/tenant systems
+- next: Bundle A (RAS-1 through RAS-3); implementation and acceptance tracked separately
 
 ## C. In Progress (none yet)
 
